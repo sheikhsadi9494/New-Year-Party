@@ -1,0 +1,174 @@
+body {
+     font-family: "Roboto", sans-serif;
+     font-weight: 400;  
+}
+/* banner  */
+.banner {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.banner-image {
+    width: 100%;
+    filter: brightness(50%);
+}
+
+.banner-sub-heading {
+    font-size: 25px;
+    color: white;
+    font-family: "Roboto Slab", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: -50px;
+}
+
+.heading {
+    font-size: 75px;
+    color: white;
+    font-family: "Roboto Slab", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.heading-description {
+    color: white;
+}
+
+.heading-text-container {
+    position: absolute;
+    top: 20%;
+    right: 35%;
+    
+}
+
+/* new year discount section  */
+.discount-heading {
+    font-size: 75px;
+    color: #FF0000;
+    font-weight: 700;
+    font-style: normal;
+    
+}
+
+.discount-container {
+    text-align: center;
+    margin: 120px auto;
+}
+
+.sub-info {
+    color: #FF0000;
+    font-size: 25px;
+    margin-bottom: -40px;
+}
+
+.sub-heading {
+    font-size: 50px;
+}
+.newYear-img-container {
+    width: 700px;
+    margin: auto;
+}
+.newYear-img {
+    width: 100%;
+}
+
+/* Welcome New Year section  */
+.welcome-newYear-container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./resources/Vectorrr.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 50px 0px;
+    margin-bottom: 120px;
+}
+
+.info-text {
+    color: white;
+}
+
+.welcome-newYear-img {
+    width: 100%;
+}
+
+.primary-button {
+    border: none;
+    background-color: #FF0000;
+    color: white;
+    font: 700;
+    border-radius: 10px;
+    padding: 14px 21px;
+    font-size: large;
+}
+
+/* address and timing section  */
+.address-section-container {
+    background-color: #f5d7d7;
+    width: 80%;
+    margin: auto;
+    border-radius: 20px;
+    text-align: center;
+    padding: 70px 0px;
+}
+
+.address-section-container h3 {
+    font-size: xx-large;
+}
+.highLight-text {
+    color: #FF0000;
+}
+
+/* coming soon section  */
+.comingSoon-section-container {
+    width: 80%;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    margin: 120px auto;
+}
+
+.comingSoon-section-img {
+    border: 10px solid #FF0000;
+    border-radius: 100%;
+    padding: 20px;
+}
+
+.description {
+    margin-top: -20px;
+}
+
+/* portfolio section  */
+.portfolio-container {
+    width: 80%;
+    margin: auto;
+}
+
+.porduct-container {
+    /* display: flex; */
+    columns: 3;
+    gap: 30px;
+}
+
+.product {
+margin-bottom: 30px;
+}
+
+.porduct-img {
+    width: 100%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: transform .8s;
+    border-radius: 15px;
+}
+
+.porduct-img:hover {
+    transform: scale(1.1); 
+}
+
+.portfolio-info {
+    margin-bottom: 70px;
+}
