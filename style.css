@@ -1,6 +1,7 @@
 body {
      font-family: "Roboto", sans-serif;
-     font-weight: 400;  
+     font-weight: 400; 
+     margin: 0%; 
 }
 /* banner  */
 .banner {
@@ -140,6 +141,7 @@ body {
 
 .description {
     margin-top: -20px;
+    color: rgb(80, 78, 78);
 }
 
 /* portfolio section  */
@@ -172,3 +174,65 @@ margin-bottom: 30px;
 .portfolio-info {
     margin-bottom: 70px;
 }
+
+/* new letter section  */
+.newsletter-section-container {
+    text-align: center;
+    background-color: #f5d7d7;
+    width: 80%;
+    margin: 120px auto;
+    border-radius: 20px;
+    padding: 70px 0px;
+    
+}
+
+.newsletter-img {
+    width: 100%;
+}
+
+.newsletter-img-container {
+    width: 100px;
+    margin: 10px auto -30px auto;
+}
+
+.subscribe-form {
+    display: flex;
+    align-items: center;
+    width: 500px;
+    margin: auto;
+  }
+  
+  input {
+    padding: 17px;
+    border: none;
+    border-radius: 15px 0 0 15px;
+    font-size: 16px;
+    outline: none;
+    width: 100%;
+  }
+
+  
+  button {
+    padding: 17px 20px;
+    background-color: #FF0000;
+    color: #fff;
+    border: none;
+    border-radius: 0 15px 15px 0;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #cc0000;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+
+.footerContainer {
+    background-color: #070211;
+    color: white;
+}
+
+ 
